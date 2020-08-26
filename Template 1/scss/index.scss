@@ -10,20 +10,25 @@ body, html{
 .head{
   display: flex;
   justify-content: space-around;
-  padding: 3px;
+  padding: 5px;
+}
+
+.head i{
+  color: #EEDB1F;
+  padding-right: 3px;
 }
 
 .navbar{
   display: flex;
   justify-content: space-around;
-  padding: 4px;
+  padding: 12px;
 }
 
 nav {
   overflow: hidden;
   background-color: white;
   z-index: 99999;
-  box-shadow: 0px 3px 5px grey;
+  box-shadow: 0px 2px 3px grey;
 }
 
 nav a {
@@ -31,7 +36,7 @@ nav a {
   display: block;
   color: #616161;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
   text-decoration: none;
   font-family: "Lato", sans-serif;
   font: 13px;
@@ -42,10 +47,10 @@ nav a {
 }
 
 .bgimg{
-  max-width:30%;
-  max-height:30%;
-  display: flex;
-  float:right;
+  max-width:20%;
+  border-radius:20px;
+  float: right;
+  margin-right: 15px;
 }
 
 .plant{
@@ -53,4 +58,28 @@ nav a {
   justify-content: space-around;
   margin-top: 20px;
   margin: 12px;
+}
+
+.bgimg1{
+  max-width: 10%;
+  border-radius:20px;
+  float: left;
+  margin-right: 15px;
+}
+
+$cd-btn: #011c37;
+$cd-txt: #15DEA5;
+
+.button{
+    background: $cd-btn;
+    color: $cd-txt;
+    font-size: 2px;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.15);
+    }
 }
