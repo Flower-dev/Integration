@@ -33,7 +33,7 @@ body, html{
   color: #000000;
   font-size: 1.1em; /* Correspond à la taille du texte */
   font-weight: bold; /* Correspond à la graisse du texte */
-  box-shadow: 0px 3px 0px #CBE4F2;
+  box-shadow: 0px 7px 0px #CBE4F2;
 }
 
 #contact_dscr{
@@ -57,8 +57,23 @@ body, html{
 .btn-primary{
   font-size: 12px;
   font-weight: bold;
+  color:#000000;
   padding: 10px 20px 10px 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background-color: #CBE4F2;
   border-color: #CBE4F2;
+  box-shadow: 3px 3px 5px 0px #CBE4F2;
+
 }
+
+label{
+  color:#042B43;
+  font-size: small;
+  font-weight: bold;
+}
+
+.placeholder{
+
+}
+
+#EDF0F0
