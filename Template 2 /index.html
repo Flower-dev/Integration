@@ -1,20 +1,86 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
     <title>Contact us</title>
-      <link rel="stylesheet" href="css/index.css">
-      <script src="https://kit.fontawesome.com/ddde616424.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <div class="bgimg">
-    </div>
+    <div class="bg">
+        <div id="spacer"></div>
 
-<div class="contact">
-  <h4>CONTACT US</h4>
-  <p> Fill out the form and recieve feedback in less then 5 minutes. For immediate service please call or chat.</p>
-  <input class="button"type="button"value="GET STARTED">
-</div>
+                <form id="contact_box">
+                    <span id="contact_txt">CONTACT US</span>
+                    <p id="contact_dscr">Fill out the form and receive feedback in less than 5 minutes. For immediate service please call or chat.</p>
 
+                    <div class="container">
+                        <div class="row">
+                            <!-- Left Box : Inputs -->
+                            <div class="col col-md-auto">
+                                <div class="container" id="aio_box">
+                                    <div class="row">
+                                        <div class="col-sm form-group">
+                                            <label>
+                                                Full Name: <span class="star">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" placeholder="John Doe">
+                                        </div>
 
+                                        <div class="col-sm form-group">
+                                            <label>
+                                                Phone Number: <span class="star">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" placeholder="+33611223344">
+                                        </div>
+
+                                        <div class="col-sm form-group">
+                                            <label>
+                                                Email: <span class="star">*</span>
+                                            </label>
+                                            <input type="email" class="form-control" placeholder="john.doe@gmail.com">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6 form-group">
+                                            <label>
+                                                Service
+                                            </label>
+                                            <input type="text" class="form-control" placeholder="What service are you in need of ?">
+                                        </div>
+
+                                        <div class="col form-group">
+                                            <label>
+                                                Zip Code: <span class="star">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" pattern="[0-9]*" placeholder="75015">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Box : Comment -->
+                            <div class="col">
+                                <div class="container" id="comment_box">
+                                    <div class="form-group">
+                                        <label>
+                                            Comments:
+                                        </label>
+                                        <textarea class="form-control" id="comment_textarea" placeholder="Type your comment"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">GET STARTED</button>
+                </form>
+          </div>
   </body>
+  </html>
