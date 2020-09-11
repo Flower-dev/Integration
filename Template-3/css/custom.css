@@ -7,6 +7,7 @@ body html{
   background-color: #73140C;
   width: 60px;
   height: 60px;
+  float: left;
 }
 .container {
   display: inline-block;
@@ -33,13 +34,8 @@ body html{
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.menu{
-  display:flex;
-  justify-content: space-around;
-}
-
 nav a {
-  float: left;
+  float: right;
   display: block;
   color: #616161;
   text-align: center;
@@ -48,7 +44,8 @@ nav a {
   font-family: "Lato", sans-serif;
   font-size: 13px;
   line-height: 1.5;
-  margin-left: 100px;
+  margin-left: 20px;
+  margin-right:100px;
   opacity: 70%;
 }
 
