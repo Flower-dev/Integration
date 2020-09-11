@@ -4,14 +4,15 @@ body html{
 
 /*menu icon*/
 .block{
-  background-color: #73140C;
-  width: 60px;
-  height: 60px;
+  background-color: #E02424;
+  width: 45px;
+  height: 45px;
   float: left;
 }
 .container {
   display: inline-block;
   cursor: pointer;
+  float :center;
 }
 
 .bar1, .bar2, .bar3 {
@@ -34,6 +35,7 @@ body html{
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/*navbar*/
 nav a {
   float: right;
   display: block;
@@ -45,30 +47,33 @@ nav a {
   font-size: 13px;
   line-height: 1.5;
   margin-left: 20px;
-  margin-right:100px;
+  margin-right: 100px;
   opacity: 70%;
+  padding-bottom: 5px;
 }
 
 nav a:hover{
   opacity: 90%;
   color: black;
   transition: 0.3s;
+  text-decoration: underline #E02424;
 }
 
 .sticky {
-  position: fixed;
+  position:static;
   top: 0;
   width: 100%;
 }
 
 .contenu{
   display: flex;
-  justify-content: space-around;
+  margin-left:250px;
 }
 
 .imgcouv img{
   width: 750px;
   height: 750px;
+  margin-left:90px;
 }
 
 .text p{
@@ -76,9 +81,14 @@ nav a:hover{
   font-family: "Lato", sans-serif;
   font-size: 13px;
   line-height: 1.5;
+  letter-spacing: 1px;
   text-align: justify;
-  margin-right: 50px;
   opacity: 70%;
+  margin-block-start: 0px;
+  margin-block-end:0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: -20px;
 }
 
 .text h1{
@@ -88,6 +98,10 @@ nav a:hover{
   letter-spacing: 3px;
   font-weight: normal;
   border-spacing: 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .text h2{
@@ -98,6 +112,12 @@ nav a:hover{
   font-weight: lighter;
   border-spacing: 0;
   opacity: 60%;
+  margin-block-start: 0px;
+  margin-block-end:0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 200px;
+  margin-left: 50px;
 }
 
 .button{
@@ -112,8 +132,12 @@ nav a:hover{
   padding-top:20px;
   padding-bottom: 20px;
   margin-bottom: 60px;
-  background-color: #73140C;
-  margin-top: 30px;
+  background-color: #E02424;
   border: none;
+  margin-block-start: 0px;
+  margin-block-end:0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   margin-left: 300px;
+  margin-top: -100px;
  }
