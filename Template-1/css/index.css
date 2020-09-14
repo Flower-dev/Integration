@@ -1,81 +1,14 @@
-body, html {
-  height: 100%;
-  font-family: "Lato", sans-serif;
-  font-size: 400 15px/1.8;
-}
-
-.head {
-  display: flex;
-  justify-content: space-around;
-  padding: 5px;
-}
-
-.head i {
-  color: #EEDB1F;
-  padding-right: 3px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  padding: 12px;
-}
-
-nav {
-  overflow: hidden;
-  background-color: white;
-  z-index: 99999;
-  box-shadow: 0px 2px 3px grey;
-}
-
-nav a {
-  float: left;
-  display: block;
-  color: #616161;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-  font: 13px;
-  line-height: 1.5;
-  margin-top: 40px;
-  margin-left: 50px;
-  opacity: 70%;
-}
-
-.bgimg {
-  max-width: 20%;
-  border-radius: 20px;
+.part3 img {
+  width: 600px;
+  height: 700px;
   float: right;
-  margin-right: 15px;
 }
 
-.plant {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin: 12px;
-}
-
-.bgimg1 {
-  max-width: 10%;
-  border-radius: 20px;
-  float: left;
-  margin-right: 15px;
-}
-
-.button {
-  background: #011c37;
-  color: #15DEA5;
-  font-size: 3rem;
-  cursor: pointer;
-  padding: 1.85rem 3rem;
-  border-radius: 10rem;
-  transform: scale(1);
-  transition: transform 400ms;
-}
-.button:hover {
-  transform: scale(1.15);
+.title h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  float: center;
 }
 
 /*# sourceMappingURL=index.css.map */
